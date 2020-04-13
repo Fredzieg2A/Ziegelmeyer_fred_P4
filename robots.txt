@@ -1,0 +1,8 @@
+#Exemple de fichier robots.txt pour La chouette agence
+
+User-agent: googlebot
+Disallow: /répertoire1/
+Disallow: /répertoire2/
+allow: /répertoire3/
+
+Sitemap: http://www.La-chouette-agence.com/sitemap.xml
