@@ -1,7 +1,3 @@
-html
-{
-    --couleurOrange: #F3976C;
-}
 
 body
 {
@@ -732,7 +728,7 @@ h2
     font-size: 3rem;
     line-height: 1.5em;
     text-align: center;
-    color: var(--couleurOrange);
+    color: #F3976C;
     font-weight: bold;
     padding-bottom: 1rem;
 }
@@ -852,12 +848,12 @@ mark
 
 .bgc-atomic-tangerine
 {
-    background-color: #F3976C!important;
+    background-color: #F3976C;!important;
 }
 
 .tc-white
 {
-    color: var(--couleurOrange);
+    color: #F3976C;
     margin: 2rem;
     opacity: 1;
 }
@@ -947,7 +943,7 @@ h1, strong
     max-width: 100%}
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
 {
     .b-parallax
     {
@@ -955,7 +951,7 @@ h1, strong
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-device-pixel-ratio: 1.5)
 {
     .b-parallax
     {
@@ -981,12 +977,6 @@ h1, strong
         position: relative;
     }
 
-    .bloc
-    {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-
     .bloc-group,.bloc-group .bloc
     {
         display: block;
@@ -996,8 +986,6 @@ h1, strong
     .bloc-fill-screen .fill-bloc-top-edge,.bloc-fill-screen .fill-bloc-bottom-edge
     {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
