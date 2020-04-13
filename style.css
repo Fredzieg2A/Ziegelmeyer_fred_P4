@@ -777,7 +777,7 @@ h3
 
 h1
 {
-    color: var(--couleurOrange)!important;
+    color: #F3976C!important;
     font-weight: 700;
     padding-bottom: 2rem;
 }
@@ -848,7 +848,7 @@ mark
 
 .bgc-atomic-tangerine
 {
-    background-color: #F3976C;!important;
+    background-color: #F3976C!important;
 }
 
 .tc-white
@@ -894,12 +894,12 @@ h1, strong
 
 .ltc-atomic-tangerine
 {
-    color: var(--couleurOrange)!important;
+    color: color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover
 {
-    color: var(--couleurOrange)!important;
+    color: color: #F3976C!important;
 }
 
 .bg-lines-h2-bg
